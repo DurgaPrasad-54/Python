@@ -23,7 +23,7 @@ while True:
         elif(player == "scissor"):
             if(computer == "paper"):
                 print ("YOU LOSE")
-            if(compter == "rock"):
+            if(computer == "rock"):
                 print("YOU WIN")
     play = input("PLAY AGAIN YES/NO: ").lower()
     if(play != 'yes'):
