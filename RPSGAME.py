@@ -28,5 +28,5 @@ while True:
     play = input("PLAY AGAIN YES/NO: ").lower()
     if(play != 'yes'):
         break
-print(" bye")
-            
+print("bye")
+              
