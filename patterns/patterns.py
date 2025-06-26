@@ -35,4 +35,11 @@ def invnum(n):
         for j in range(1,(n+1)-i+1):
             print(j,end=" ")
         print()
+def daimond(n):
+    for i in range(1,n):
+        for j in range(5-i):
+            print(" ",end="")
+        for j in range(i,2*i+1):
+            print("*",end=" ")
+        print()
 
